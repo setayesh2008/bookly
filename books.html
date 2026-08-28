@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>کتاب‌ها | Bookly</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                Bookly
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="books.html">کتاب‌ها</a></li>
+                <li><a href="community.html">انجمن</a></li>
+                <li><a href="reviews.html">نقد و بررسی</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+            </ul>
+
+            <a href="profile.html" class="profile-btn">
+                پروفایل
+            </a>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Page Title -->
+        <section class="books-header">
+
+            <p>دنیای کتاب‌ها</p>
+
+            <h1>
+                کتاب مورد پسندت را پیدا کن
+            </h1>
+
+            <span>
+                میان مجموعه‌ای از کتاب‌ها جست‌وجو کن و کتاب بعدی
+                برای خواندن را پیدا کن.
+            </span>
+
+        </section>
+
+
+        <!-- Search -->
+        <section class="books-tools">
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="book-search"
+                    placeholder="نام کتاب یا نویسنده را جست‌وجو کنید..."
+                >
+
+                <button id="search-btn" type="button">
+                    جست‌وجو
+                </button>
+
+            </div>
+            <!--categories-->
+            <div class="--categories--">
+                <button type="button"  class="category active" data-category="همه">
+                    همه
+                </button>
+                <button type="button" class="category" data-category="رمان" >
+                    رمان
+                </button>
+                <button type="button" class="category" data-category="فلسفه" >
+                    فلسفه
+                </button>
+                  <button type="button" class="category" data-category="روانشناسی">
+                 روانشناسی
+                </button>
+                  <button type="button" class="category" data-category="تاریخی">
+                    تاریخی
+                </button>
+                  <button type="button" class="category"  data-category="علمی">
+                    علمی
+                </button>
+                <button type="button" class="category"  data-category="سیاسی">
+                    سیاسی
+                </button>
+            </div>
+            </section>
+            <!--books-->
+            <section class="all-books">
+                <div class="section-title">
+                    <p>مجموعه‌ بوکلی</p>
+                    <h2>همه کتاب ها </h2>
+                </div>
+                <div class="books-grid">
+                    <!--book1-->
+                    <article class="book-card" data-category="رمان">
+                        
+                <a href="book1.html" class="book-link">
+                                <div class="book-image">
+                        <img
+                            src="images/books/book1.jpg"
+                            alt="جلد کتاب"
+                        >
+                    </div>
+
+                    <div class="book-info">
+
+                        <h3>
+                        شازده کوچولو                                    
+                        </h3>
+
+                        <p>
+ 
+                    آنتوان دو سنت‌اگزوپری                      
+                        </p>
+
+                        <span class="book-rating">
+                            ★ ۴.۶
+                        </span>
+
+                    </div>
+                    <a href="book1.html" class="secondary-btn">مشاهده کتاب‌</a>
+                     </a>
+                     <div class="comments-section">
+
+    <h4>نظرات کاربران</h4>
+
+    <div class="comment-list" id="comment-list">
+    </div>
+
+    <div class="comment-form">
+
+        <input
+            type="text"
+            id="comment-input"
+            placeholder="نظر خود را بنویسید..."
+        >
+
+        <button
+            type="button"
+            id="comment-btn">
+            ثبت نظر
+        </button>
+
+    </div>
+
+</div>
+                    </article>
+                    <!-- Book 2 -->
+                <article class="book-card" data-category="فلسفه">
+                    
+                   <a href="book2.html" class="book-link">
+                        <div class="book-image">
+                        <img
+                            src="images/books/book2.jpg"
+                            alt="جلد کتاب"
+                        >
+                    </div>
+
+                    <div class="book-info">
+
+                        <h3>
+                            بیگانه
+                        </h3>
+
+                        <p>
+                            البر کامو
+                        </p>
+
+                        <span class="book-rating">
+                            ★ ۴.۶
+                        </span>
+
+                    </div>
+<a href="book2.html" class="secondary-btn">مشاهده کتاب‌</a>
+                   </a>
+                   
+              <div class="comments-section">
+
+    <h4>نظرات کاربران</h4>
+
+    <div class="comment-list" id="comment-list">
+    </div>
+
+    <div class="comment-form">
+
+        <input
+            type="text"
+            id="comment-input"
+            placeholder="نظر خود را بنویسید..."
+        >
+
+        <button
+            type="button"
+            id="comment-btn">
+            ثبت نظر
+        </button>
+
+    </div>
+                  
+                </article>
+
+
+                <!-- Book 3 -->
+                <article class="book-card" data-category="رمان">
+                  
+ <a href="book3.html" class="book-link">
+                    <div class="book-image">
+                        <img
+                            src="images/books/book3.jpg"
+                            alt="جلد کتاب"
+                        >
+                    </div>
+
+                    <div class="book-info">
+
+                        <h3>
+                            جنایات و مکافات
+                        </h3>
+
+                        <p>
+                            فئودور داستایفسکی
+                        </p>
+
+                        <span class="book-rating">
+                            ★ ۴.۹
+                        </span>
+
+                    </div>
+                      <a href="book3.html" class="secondary-btn">مشاهده کتاب‌</a>
+                   </a>
+                   
+              <div class="comments-section">
+
+    <h4>نظرات کاربران</h4>
+
+    <div class="comment-list" id="comment-list">
+    </div>
+
+    <div class="comment-form">
+
+        <input
+            type="text"
+            id="comment-input"
+            placeholder="نظر خود را بنویسید..."
+        >
+
+        <button
+            type="button"
+            id="comment-btn">
+            ثبت نظر
+        </button>
+
+    </div>
+                </article>
+                <!-- Book 4 -->
+                <article class="book-card" data-category="رمان">
+ <a href="book4.html" class="book-link">
+
+                    <div class="book-image">
+                        <img
+                            src="images/books/book4.jpg"
+                            alt="جلد کتاب"
+                        >
+                    </div>
+
+                    <div class="book-info">
+
+                        <h3>
+                            صدسال تنهایی
+                        </h3>
+
+                        <p>
+                            گابریل گارسیا مارکز
+                        </p>
+
+                        <span class="book-rating">
+                            ★ ۴.۷
+                        </span>
+
+                    </div>
+                    
+                    <a href="book4.html" class="secondary-btn">مشاهده کتاب‌</a>
+</a>
+              <div class="comments-section">
+
+    <h4>نظرات کاربران</h4>
+
+    <div class="comment-list" id="comment-list">
+    </div>
+
+    <div class="comment-form">
+
+        <input
+            type="text"
+            id="comment-input"
+            placeholder="نظر خود را بنویسید..."
+        >
+
+        <button
+            type="button"
+            id="comment-btn">
+            ثبت نظر
+        </button>
+
+    </div>
+                </article>
+
+
+                <!-- Book 5 -->
+                <article class="book-card" data-category="روانشناسی">
+                    
+ <a href="book5.html" class="book-link">
+
+                    <div class="book-image">
+                        <img
+                            src="images/books/book5.jpg"
+                            alt="جلد کتاب"
+                        >
+                    </div>
+
+                    <div class="book-info">
+
+                        <h3>
+                            انسان در جست‌وجوی معنا
+                        </h3>
+
+                        <p>
+                            ویکتور فرانکل
+                        </p>
+
+                        <span class="book-rating">
+                            ★ ۴.۵
+                        </span>
+
+                    </div>
+                    <a href="book5.html" class="secondary-btn">مشاهده کتاب‌</a>
+
+</a>
+              <div class="comments-section">
+
+    <h4>نظرات کاربران</h4>
+
+    <div class="comment-list" id="comment-list">
+    </div>
+
+    <div class="comment-form">
+
+        <input
+            type="text"
+            id="comment-input"
+            placeholder="نظر خود را بنویسید..."
+        >
+
+        <button
+            type="button"
+            id="comment-btn">
+            ثبت نظر
+        </button>
+
+    </div>
+                </article>
+
+
+                <!-- Book 6 -->
+                <article class="book-card" data-category="سیاسی">
+                   
+ <a href="book6.html" class="book-link">
+
+                    <div class="book-image">
+                        <img
+                            src="images/books/book6.jpg"
+                            alt="جلد کتاب"
+                        >
+                    </div>
+
+                    <div class="book-info">
+
+                        <h3>
+                            قلعه حیوانات 
+                        </h3>
+
+                        <p>
+                        جورج اورول
+                        </p>
+
+                        <span class="book-rating">
+                            ★ ۴.۸
+                        </span>
+
+                    </div>
+                     <a href="book6.html" class="secondary-btn">مشاهده کتاب‌</a>
+</a>
+              <div class="comments-section">
+
+    <h4>نظرات کاربران</h4>
+
+    <div class="comment-list" id="comment-list">
+    </div>
+
+    <div class="comment-form">
+
+        <input
+            type="text"
+            id="comment-input"
+            placeholder="نظر خود را بنویسید..."
+        >
+
+        <button
+            type="button"
+            id="comment-btn">
+            ثبت نظر
+        </button>
+
+    </div>
+                </article>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © ۱۴۰۵ بوکلی | دنیای کتاب‌خوان‌ها
+        </p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+    </body>
+    </html>
+        

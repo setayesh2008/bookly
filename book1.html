@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>شازده کوچولو | Bookly</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                Bookly
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="books.html">کتاب‌ها</a></li>
+                <li><a href="community.html">انجمن</a></li>
+                <li><a href="reviews.html">نقد و بررسی</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+            </ul>
+
+            <a href="profile.html" class="profile-btn">
+                پروفایل
+            </a>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Book Details -->
+        <section class="book-details">
+
+            <div class="book-details-image">
+
+                <img
+                    src="images/books/book1.jpg"
+                    alt="جلد کتاب شازده کوچولو"
+                >
+
+            </div>
+
+
+            <div class="book-details-content">
+
+                <p class="book-category">
+                    رمان
+                </p>
+
+                <h1>
+                    شازده کوچولو
+                </h1>
+
+                <h2>
+                    آنتوان دو سنت‌اگزوپری
+                </h2>
+
+               <div class="book-rating-large">
+
+            <div class="rating-stars">
+    <button type="button" data-rating="1">★</button>
+    <button type="button" data-rating="2">★</button>
+    <button type="button" data-rating="3">★</button>
+    <button type="button" data-rating="4">★</button>
+    <button type="button" data-rating="5">★</button>
+</div>
+
+<p id="rating-message"></p>
+
+    <span class="rating-text">
+        امتیاز کاربران: ۴.۸ از ۵
+    </span>
+
+</div>
+
+                <p class="book-description">
+                    شازده کوچولو داستانی خیال‌انگیز و تأمل‌برانگیز
+                    درباره دوستی، عشق، تنهایی و معنای زندگی است.
+                    این کتاب یکی از آثار محبوب ادبیات جهان به شمار می‌رود.
+                </p>
+                <div class="book-meta">
+
+    <div class="meta-item">
+        <span>نویسنده</span>
+        <strong>آنتوان دو سنت‌اگزوپری</strong>
+    </div>
+
+    <div class="meta-item">
+        <span>دسته‌بندی</span>
+        <strong>رمان</strong>
+    </div>
+
+    <div class="meta-item">
+        <span>سال انتشار</span>
+        <strong>۱۹۴۳</strong>
+    </div>
+
+    <div class="meta-item">
+        <span>تعداد صفحات</span>
+        <strong>۹۶ صفحه</strong>
+    </div>
+
+</div>
+<div class="book-actions">
+
+    <button
+        type="button"
+        class="read-btn"
+        id="read-btn"
+    >
+        ✓ این کتاب را خوانده‌ام
+    </button>
+
+</div>
+                <div class="book-actions">
+
+                    <button class="favorite-btn" id="favorite-btn">
+                        ♡ افزودن به علاقه‌مندی‌ها
+                    </button>
+
+                    <a href="#comments" class="comment-btn">
+                        مشاهده نظرات
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Comments -->
+        <section class="comments" id="comments">
+
+            <div class="section-title">
+
+                <p>نظر کتاب‌خوان‌ها</p>
+
+                <h2>
+                    نظرات کاربران
+                </h2>
+
+            </div>
+
+
+            <div class="comment-form">
+
+                <h3>
+                    نظر خودت را بنویس
+                </h3>
+
+                <textarea id="comment-input"
+                    placeholder="نظر خود را درباره این کتاب بنویسید..."
+                ></textarea>
+
+                <button id="comment-submit" type="button">
+                    ارسال نظر
+                </button>
+
+            </div>
+
+
+            <div class="comment-list">
+
+                <article class="comment">
+
+                    <div class="comment-header">
+
+                        <strong>
+                            سارا
+                        </strong>
+
+                        <span>
+                            ★★★★★
+                        </span>
+
+                    </div>
+
+                    <p>
+                        کتاب خیلی زیبایی بود و هر بار که می‌خوانمش
+                        چیز تازه‌ای از آن یاد می‌گیرم.
+                    </p>
+
+                </article>
+
+
+                <article class="comment">
+
+                    <div class="comment-header">
+
+                        <strong>
+                            علی
+                        </strong>
+
+                        <span>
+                            ★★★★☆
+                        </span>
+
+                    </div>
+
+                    <p>
+                        داستان ساده‌ای دارد اما مفاهیم عمیقی پشت آن است.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © ۱۴۰۵ بوکلی | دنیای کتاب‌خوان‌ها
+        </p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

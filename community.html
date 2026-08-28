@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>انجمن کتاب‌خوان‌ها | Bookly</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+   <header>
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    bookly
+                </a>
+                <ul class="nav-links">
+                    <li> <a href="index.html">خانه</a></li>
+                    <li> <a href="books.html">کتاب ها </a></li>
+                    <li> <a href="community.html">انجمن</a></li>
+                    <li> <a href="reviews.html">نقد و بررسی </a></li>
+                    <li><a href="about.html">درباره ما </a></li>
+                </ul>
+                <a href="profile.html" class="profile-btn"> پروفایل</a>
+            </nav>
+        </header>
+
+    <main>
+
+        <section class="community-header">
+
+            <h1>انجمن کتاب‌خوان‌ها</h1>
+
+            <p>
+                درباره کتاب‌هایی که دوست دارید صحبت کنید و دیدگاهتان را با دیگران به اشتراک بگذارید.
+            </p>
+
+        </section>
+
+
+        <section class="community-container">
+
+            <article class="community-card">
+
+                <h2>📚 گفت‌وگو درباره کتاب‌ها</h2>
+
+                <p>
+                    درباره کتاب‌هایی که خوانده‌اید صحبت کنید و نظر دیگر کتاب‌خوان‌ها را بشنوید.
+                </p>
+
+                <a href="#discussions" class="community-button">ورود به گفت‌وگو</a>
+
+            </article>
+
+            <article class="community-card">
+
+                <h2>⭐ معرفی کتاب</h2>
+
+                <p>
+                    اگر کتابی را دوست دارید، آن را به دیگران معرفی کنید و دلیل پیشنهادتان را بنویسید.
+                </p>
+
+              <a href="#introduce-book" class="community-button">معرفی کتاب</a>
+
+            </article>
+
+
+            <article class="community-card">
+
+                <h2>💬 دیدگاه‌های کاربران</h2>
+
+                <p>
+                    دیدگاه‌ها و تجربه‌های دیگر علاقه‌مندان به کتاب را بخوانید.
+                </p>
+
+              <a href="reviews.html" class="community-button">مشاهده دیدگاه ها </a>
+
+            </article>
+
+        </section>
+
+    </main>
+    <section id="discussions" class="community-section">
+
+    <h2>گفت‌وگوهای انجمن</h2>
+
+    <div class="discussion-box">
+        <h3>درباره کتاب‌هایی که خوانده‌اید صحبت کنید</h3>
+
+        <textarea
+            id="discussion-input"
+            placeholder="دیدگاه خود را بنویسید..."
+        ></textarea>
+
+        <button type="button" id="discussion-btn">
+            ارسال دیدگاه
+        </button>
+
+        <div id="discussion-list"></div>
+    </div>
+
+</section>
+
+
+<section id="introduce-book" class="community-section">
+
+    <h2>معرفی یک کتاب</h2>
+
+    <div class="discussion-box">
+
+        <input
+            type="text"
+            id="book-name-input"
+            placeholder="نام کتاب"
+        >
+
+        <textarea
+            id="book-intro-input"
+            placeholder="چرا این کتاب را پیشنهاد می‌کنید؟"
+        ></textarea>
+
+        <button type="button" id="book-intro-btn">
+            ثبت معرفی کتاب
+        </button>
+
+        <div id="book-intro-list"></div>
+
+    </div>
+
+</section>
+<script src="js/script.js"></script>
+</body>
+
+</html>

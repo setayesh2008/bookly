@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>کتاب‌ها | Bookly</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                Bookly
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="books.html">کتاب‌ها</a></li>
+                <li><a href="community.html">انجمن</a></li>
+                <li><a href="reviews.html">نقد و بررسی</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+            </ul>
+
+            <a href="profile.html" class="profile-btn">
+                پروفایل
+            </a>
+
+        </nav>
+    </header>
+<main>
+
+        <!-- Book Details -->
+        <section class="book-details">
+
+            <div class="book-details-image">
+
+                <img
+                    src="images/books/book6.jpg"
+                    alt="جلد کتاب قلعه حیوانات"
+                >
+
+            </div>
+
+
+            <div class="book-details-content">
+
+                <p class="book-category">
+                    رمان
+                </p>
+
+                <h1>
+                    قلعه حیوانات
+                </h1>
+
+                <h2>
+                    جورج اورول
+                </h2>
+
+
+                <!-- Rating -->
+                <div class="book-rating-large">
+
+                    <div class="rating-stars">
+
+                        <button type="button" data-rating="1">★</button>
+                        <button type="button" data-rating="2">★</button>
+                        <button type="button" data-rating="3">★</button>
+                        <button type="button" data-rating="4">★</button>
+                        <button type="button" data-rating="5">★</button>
+
+                    </div>
+
+                    <p id="rating-message"></p>
+
+                    <span class="rating-text">
+                        امتیاز کاربران: ۴.۶ از ۵
+                    </span>
+                    </div>
+
+
+                <!-- Description -->
+                <p class="book-description">
+
+                    قلعه حیوانات داستانی نمادین و تأمل‌برانگیز
+                    درباره گروهی از حیوانات است که برای رسیدن
+                    به آزادی و برابری علیه صاحب مزرعه قیام می‌کنند.
+                    این اثر درباره قدرت، آزادی، عدالت و سوءاستفاده
+                    از قدرت صحبت می‌کند.
+
+                </p>
+
+
+                <!-- Book Meta -->
+                <div class="book-meta">
+
+                    <div class="meta-item">
+
+                        <span>
+                            نویسنده
+                        </span>
+
+                        <strong>
+                            جورج اورول
+                        </strong>
+
+                    </div>
+
+
+                    <div class="meta-item">
+
+                        <span>
+                            دسته‌بندی
+                        </span>
+
+                        <strong>
+                            رمان
+                        </strong>
+
+                    </div>
+                    <div class="meta-item">
+
+                        <span>
+                            سال انتشار
+                        </span>
+
+                        <strong>
+                            ۱۹۴۵
+                        </strong>
+
+                    </div>
+
+
+                    <div class="meta-item">
+
+                        <span>
+                            تعداد صفحات
+                        </span>
+
+                        <strong>
+                            بسته به چاپ
+                        </strong>
+
+                    </div>
+
+                </div>
+<div class="book-actions">
+
+    <button
+        type="button"
+        class="read-btn"
+        id="read-btn"
+    >
+        ✓ این کتاب را خوانده‌ام
+    </button>
+
+</div>
+
+                <!-- Actions -->
+                <div class="book-actions">
+
+                    <button
+                        class="favorite-btn"
+                        id="favorite-btn"
+                        type="button"
+                    >
+                        ♡ افزودن به علاقه‌مندی‌ها
+                    </button>
+
+
+                    <a
+                        href="#comments"
+                        class="comment-btn"
+                    >
+                        مشاهده نظرات
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Comments -->
+        <section
+            class="comments"
+            id="comments"
+        >
+
+            <div class="section-title">
+
+                <p>
+                    نظر کتاب‌خوان‌ها
+                </p>
+
+                <h2>
+                    نظرات کاربران
+                </h2>
+
+            </div>
+
+
+            <!-- Comment Form -->
+            <div class="comment-form">
+
+                <h3>
+                    نظر خودت را بنویس
+                </h3>
+
+
+                <textarea
+                    id="comment-input"
+                    placeholder="نظر خود را درباره این کتاب بنویسید..."
+                ></textarea><button
+                    id="comment-submit"
+                    type="button"
+                >
+                    ارسال نظر
+                </button>
+
+            </div>
+
+
+            <!-- Comment List -->
+            <div class="comment-list">
+
+                <article class="comment">
+
+                    <div class="comment-header">
+
+                        <strong>
+                            آوا
+                        </strong>
+
+                        <span>
+                            ★★★★★
+                        </span>
+
+                    </div>
+
+                    <p>
+                        داستان ساده‌ای دارد اما مفاهیم بسیار
+                        عمیقی درباره قدرت و آزادی مطرح می‌کند.
+                    </p>
+
+                </article>
+
+
+                <article class="comment">
+
+                    <div class="comment-header">
+
+                        <strong>
+                            سینا
+                        </strong>
+
+                        <span>
+                            ★★★★☆
+                        </span>
+
+                    </div>
+
+                    <p>
+                        کتاب جذاب و تأمل‌برانگیزی بود و نمادهای
+                        داستان باعث شد بیشتر درباره مفهوم قدرت فکر کنم.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © ۱۴۰۵ بوکلی | دنیای کتاب‌خوان‌ها
+        </p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

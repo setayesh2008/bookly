@@ -1,0 +1,135 @@
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>پروفایل | Bookly</title>
+<section class="create-profile-section" id="create-profile-section">
+
+    <div class="section-title">
+
+        <p>
+            به بوکلی خوش آمدید
+        </p>
+
+        <h2>
+            ایجاد پروفایل
+        </h2>
+
+    </div>
+
+
+    <div class="create-profile-form">
+
+        <input
+            type="text"
+            id="register-name"
+            placeholder="نام خود را وارد کنید"
+        >
+
+        <input
+            type="email"
+            id="register-email"
+            placeholder="ایمیل خود را وارد کنید"
+        >
+
+        <input
+            type="password"
+            id="register-password"
+            placeholder="رمز عبور خود را وارد کنید"
+        >
+
+        <button
+            type="button"
+            id="register-btn"
+        >
+            ایجاد پروفایل
+        </button>
+
+    </div>
+
+</section>
+</head>
+<main class="profile-page">
+<section class="profile-header">
+    <div class="edit-profile-form" id="edit-profile-form">
+
+    <input
+        type="text"
+        id="profile-name"
+        placeholder="نام شما"
+    >
+
+    <textarea
+        id="profile-bio"
+        placeholder="درباره خودتان بنویسید..."
+    ></textarea>
+
+    <button id="save-profile-btn" type="button">
+        ذخیره تغییرات
+    </button>
+
+</div>
+
+        <div class="profile-avatar">
+            س
+        </div>
+
+        <div class="profile-info">
+            <h1>ستایش</h1>
+            <p>کتاب‌دوست و علاقه‌مند به ادبیات 📚</p>
+        </div>
+
+        <button class="edit-profile-btn" id="edit-profile-btn" type="button">
+            ویرایش پروفایل
+        </button>
+
+    </section>
+
+<section class="profile-stats">
+
+    <div class="stat-box">
+        <strong id="read-count">0</strong>
+        <span>کتاب خوانده‌شده</span>
+    </div>
+
+    <div class="stat-box">
+        <strong id="favorite-count">0</strong>
+        <span>علاقه‌مندی</span>
+    </div>
+
+    <div class="stat-box">
+        <strong id="comment-count">0</strong>
+        <span>نظر ثبت‌شده</span>
+    </div>
+
+</section>
+    <section class="profile-section">
+
+        <div class="section-title">
+            <h2>کتاب‌های مورد علاقه</h2>
+            <a href="books.html">مشاهده همه</a>
+        </div>
+
+        <div class="profile-books">
+
+            <article class="profile-book">
+                <img src="images/books/book1.jpg" alt="شازده کوچولو">
+                <h3>شازده کوچولو</h3>
+                <p>آنتوان دو سنت‌اگزوپری</p>
+            </article>
+
+            <article class="profile-book">
+                <img src="images/books/book2.jpg" alt="بیگانه">
+                <h3>بیگانه</h3>
+                <p>آلبر کامو</p>
+            </article>
+
+        </div>
+
+    </section>
+
+</main>
+<script src="js/profile.js"> </script>
